@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragini More | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="skills-page">
+    <h1>My Technical Skills</h1>
+
+    <div class="skills-grid">
+        <article class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                 alt="HTML5 logo">
+            <h3>HTML5</h3>
+        </article>
+
+        <article class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                 alt="CSS3 logo">
+            <h3>CSS3</h3>
+        </article>
+
+        <article class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                 alt="JavaScript logo">
+            <h3>JavaScript</h3>
+        </article>
+
+        <article class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                 alt="React.js logo">
+            <h3>React.js</h3>
+        </article>
+
+        <article class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                 alt="Java logo">
+            <h3>Java</h3>
+        </article>
+
+        <article class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                 alt="MySQL logo">
+            <h3>MySQL</h3>
+        </article>
+
+        <article class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                 alt="Node.js logo">
+            <h3>Node.js</h3>
+        </article>
+
+        <article class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                 alt="GitHub logo">
+            <h3>Git &amp; GitHub</h3>
+        </article>
+    </div>
+</section>
+<footer>
+        <p>Ragini More | Computer Engineering Graduate</p>
+        <p>&copy; 2026 Ragini More. All rights reserved.</p>
+        <p>
+            <a href="https://github.com/raginimore21"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+            |
+            <a href="contact.html">Contact</a>
+        </p>
+    </footer>
+
+</body>
+</html>
+
