@@ -1,7 +1,6 @@
 # week1-assignments
 # Task 1-Personal Portfolio Website
 
-# Personal Portfolio Website
 
 ## About the Project
 
