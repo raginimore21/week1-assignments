@@ -1,1 +1,373 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+
+    padding: 20px 10%;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+main {
+    min-height: 80vh;
+}
+
+section {
+    padding: 70px 10%;
+}
+
+.home {
+    min-height: 80vh;
+
+    display: flex;
+    align-items: center;
+
+    background: #f5f5f5;
+}
+
+.home h1 {
+    font-size: 50px;
+    color: #ff6600;
+}
+
+.home h2 {
+    margin: 10px 0;
+}
+
+.home p {
+    max-width: 600px;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+.home-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.ragini-photo {
+    width: 400px;
+    height: 390px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    background: white;
+
+    padding: 10px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+.button {
+    display: inline-block;
+
+    background: #ff6600;
+    color: white;
+
+    padding: 10px 20px;
+
+    margin: 10px 5px 0 0;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+}
+
+/*About section*/
+
+#about p {
+    margin-bottom: 25px;
+    line-height: 1.9;
+}
+
+#about h3 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+#about .education-card {
+    margin-top: 20px;
+    padding: 25px;
+}
+
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 85px 10%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.skills-section .section-subtitle {
+    color: #ff6600;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.skills-section .title {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.skills-section .title span {
+    color: #ff6600;
+}
+
+.skills-description {
+    max-width: 600px;
+    margin: 0 auto 45px;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Grid Layout */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Skill Cards */
+.skill-card {
+    background: #ffffff;
+    padding: 30px 15px;
+    border: 1px solid #eeeeee;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    border-color: #ff6600;
+    box-shadow: 0 12px 25px rgba(255, 102, 0, 0.13);
+}
+
+.skill-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 18px;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover img {
+    transform: scale(1.12);
+}
+
+.skill-card h3 {
+    color: #222222;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.skill-card p {
+    color: #888888;
+    font-size: 13px;
+}
+
+
+/* Projects */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.project {
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-top: 4px solid #ff6600;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    color: #ff6600;
+    margin: 0 0 12px;
+}
+
+.project p {
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.project .tech {
+    font-size: 14px;
+}
+
+
+
+/* Contact */
+
+input,
+textarea {
+    display: block;
+
+    width: 100%;
+
+    max-width: 600px;
+
+    padding: 12px;
+
+    margin: 15px 0;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+.contact p{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+textarea {
+    height: 120px;
+    
+}
+
+
+button {
+    background: #ff6600;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e65c00;
+}
+
+
+/* Footer */
+
+footer {
+    background: #222;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .home {
+        text-align: center;
+    }
+
+    .home h1 {
+        font-size: 38px;
+    }
+
+    section {
+        padding: 50px 7%;
+    }
+    .ragini-photo {
+        width: 200px;
+        height: 240px;
+    }
+}
+@media (max-width: 480px) {
+    .skills-section {
+        padding: 50px 6%;
+    }
+
+    .skills-section .title {
+        font-size: 30px;
+    }
+
+    .skills-grid {
+        gap: 14px;
+    }
+
+    .skill-card {
+        padding: 24px 8px;
+    }
+
+    .skill-card img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .skill-card h3 {
+        font-size: 16px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .skills-section {
+        padding: 65px 7%;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+}
