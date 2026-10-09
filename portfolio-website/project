@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragini More | Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+    <main>
+        <section id="projects" class="projects-section">
+            <h1>My Projects</h1>
+
+            <p>
+                Here are some of the projects I have worked on
+                using different programming languages and technologies.
+            </p>
+
+            <div class="projects">
+
+                <article class="project-card">
+                    <h2>AI PDF Q&amp;A System</h2>
+
+                    <p>
+                        An AI-powered application that allows users
+                        to upload PDF documents and ask questions
+                        about their content.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML, CSS, JavaScript, Node.js, AI
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h2>Kitchen to Community</h2>
+
+                    <p>
+                        An AI-enabled food donation platform designed
+                        to connect food donors with people in need
+                        and help reduce food waste.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        React.js, JavaScript, MongoDB, AI
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h2>Parallel Text Classification</h2>
+
+                    <p>
+                        A text classification project using the
+                        Naive Bayes algorithm and parallel processing
+                        to improve classification performance.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        C++, OpenMP, Naive Bayes
+                    </p>
+                </article>
+
+            </div>
+
+            <p class="project-note">
+                Interested in my work? Feel free to contact me
+                for more information.
+            </p>
+
+            <a href="contact.html" class="button">Contact Me</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Ragini More | Computer Engineering Graduate</p>
+        <p>&copy; 2026 Ragini More. All rights reserved.</p>
+        <p>
+            <a href="https://github.com/raginimore21"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
