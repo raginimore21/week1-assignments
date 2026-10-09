@@ -1,291 +1,68 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>Ragini More | Portfolio</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragini More | Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- ================= HEADER ================= -->
-
+    
 <header>
-
-    <!--<h2>WELCOME  MY PORTFOLIO</h2>-->
-
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
     </nav>
-
 </header>
 
+    <main>
+        <section id="home" class="home">
+            <div class="home-content">
+                <h1>Hello, I'm Ragini More</h1>
+                <h2>Computer Engineering Graduate</h2>
 
-<main>
+                <p>
+                    Welcome to my portfolio! I am passionate about web
+                    development and creating responsive, user-friendly
+                    websites. I enjoy learning new technologies and
+                    building practical projects.
+                </p>
 
-<!-- ================= HOME ================= -->
+                <a href="projects.html" class="button">View My Projects</a>
+                <a href="contact.html" class="button">Contact Me</a>
+            </div>
 
-<section id="home" class="home">
+            <img
+                src="assets/ragini.jpg"
+                alt="Ragini More"
+                class="ragini-photo"
+            >
+        </section>
 
-    <div class="home-content">
-
-        <p class="hello">Hello, I'm</p>
-
-        <h1>Ragini More</h1>
-
-        <h2>Full Stack Developer</h2>
-
-        <p class="description">
-            I am a Computer Engineering graduate passionate
-            about web development and software development.
-            I enjoy creating responsive and user-friendly
-            web applications.
-        </p>
-
-        <a href="#projects" class="button">
-            View Projects
-        </a>
-
-        <a href="#contact" class="button">
-            Contact Me
-        </a>
-
-
-    </div>
-  <img src="assets/ragini.jpg" alt="Ragini More" class="ragini-photo">
-</section>
-
-
-
-<!-- ABOUT  -->
-
-<section id="about">
-
-    <h2 class="title">About Me</h2>
-
-    <p>
-        I am a Computer Engineering graduate from Sanjivani College of Engineering, Kopargaon. I have a strong interest in web development and software development, and I enjoy creating responsive, user-friendly, and visually appealing websites.
-    </p>
-
-    <p>
-        I have worked with technologies such as HTML, CSS, JavaScript, React.js, Java, MySQL, and Node.js.Through my academic projects, I have gained experience in developing applications, solving technical problems, and exploring new technologies.
-    </p>
-
-
-    <p>
-        I am passionate about learning, improving my technical skills, and working on innovative ideas. My goal is to begin my professional career as a Full Stack Developer,  contribute to meaningful projects, and continue growing as a software professional.
-    </p>
-
-    </section>
-
-
-<!-- Skills Section -->
-<section id="skills" class="skills-section">
-
-    <p class="section-subtitle">MY TECHNICAL EXPERTISE</p>
-    <h2 class="title">My <span>Skills</span></h2>
-
-    <p class="skills-description">
-        Technologies and tools I use to create
-        modern and user-friendly applications.
-    </p>
-
-    <div class="skills-grid">
-
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                 alt="HTML logo">
-            <h3>HTML5</h3>
-            <p>Web Structure</p>
-        </div>
-
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                 alt="CSS logo">
-            <h3>CSS3</h3>
-            <p>Web Styling</p>
-        </div>
-
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                 alt="JavaScript logo">
-            <h3>JavaScript</h3>
-            <p>Web Interactivity</p>
-        </div>
-
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                 alt="React logo">
-            <h3>React.js</h3>
-            <p>Frontend Development</p>
-        </div>
-
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-                 alt="Java logo">
-            <h3>Java</h3>
-            <p>Programming</p>
-        </div>
-
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-                 alt="MySQL logo">
-            <h3>MySQL</h3>
-            <p>Database Management</p>
-        </div>
-
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                 alt="Node.js logo">
-            <h3>Node.js</h3>
-            <p>Backend Development</p>
-        </div>
-
-        <div class="skill-card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                 alt="GitHub logo">
-            <h3>Git & GitHub</h3>
-            <p>Version Control</p>
-        </div>
-
-    </div>
-</section>
-
-<!-- PROJECTS  -->
-
-<section id="projects">
-
-    <h2 class="title">My Projects</h2>
-
-
-    <div class="projects">
-
-
-        <!-- Project 1 -->
-
-        <article class="project">
-
-            <h3>AI PDF Q&A System</h3>
-
+        <section class="gray">
+            <h2>Welcome to My Portfolio</h2>
             <p>
-                An AI-powered application where users can upload
-                PDF documents and ask questions about the content.
+                Explore my technical skills, academic projects, and
+                experience through the pages of my portfolio.
             </p>
+        </section>
+    </main>
 
-            <p>
-                <b>Technologies:</b>
-                HTML, CSS, JavaScript, Node.js, AI
-            </p>
-
-        </article>
-
-
-        <!-- Project 2 -->
-
-        <article class="project">
-
-            <h3>Kitchen to Community</h3>
-
-            <p>
-                A web platform that connects food donors with
-                communities and helps reduce food waste.
-            </p>
-
-            <p>
-                <b>Technologies:</b>
-                React.js, JavaScript, MongoDB, AI
-            </p>
-
-        </article>
-
-
-        <!-- Project 3 -->
-
-        <article class="project">
-
-            <h3>Parallel Text Classification</h3>
-
-            <p>A text classification project using Naive Bayes and parallel processing.</p>
-
-            <p>
-                <b>Technologies:</b>C++, OpenMP, Naive Bayes
-            </p>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- CONTACT -->
-
-<section id="contact" class="gray">
-
-    <h2 class="title">Contact Me</h2>
-
-    <div class="contact">
-
+    <footer>
+        <p>Ragini More | Computer Engineering Graduate</p>
+        <p>&copy; 2026 Ragini More. All rights reserved.</p>
         <p>
-            <b>Email:</b>raginimore445@gmail.com
+            <a href="https://github.com/raginimore21"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+            |
+            <a href="contact.html">Contact</a>
         </p>
-
-        <p>
-            <b>GitHub:</b>
-            <a href="https://github.com/raginimore21" target="_blank">GitHub Profile</a>
-        </p>
-
-        <p>
-            <b>LinkedIn:</b>
-            <a href="https://www.linkedin.com/in/ragini-more4459b4256-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_blank">LinkedIn Profile</a>
-        </p>
-
-    </div>
-
-
-    <h3>Send Me a Message</h3>
-
-    <form id="contactForm">
-
-        <input type="text" id="name" placeholder="Your Name" required>
-
-        <input type="email" id="email" placeholder="Your Email" required>
-
-        <textarea id="message" placeholder="Your Message" required></textarea>
-
-        <button type="submit">Send Message </button>
-
-    </form>
-
-    <p id="result"></p>
-
-</section>
-
-</main>
-
-
-<!-- FOOTER -->
-
-<footer>
-
-    <h3>Ragini More</h3>
-
-    <p> Full Stack Developer | Computer Engineering Graduate</p>
-
-    <p> © 2026 Ragini More. All Rights Reserved.</p>
-
-</footer>
-<script src="script.js"></script>
+    </footer>
 
 </body>
 </html>
