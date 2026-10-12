@@ -170,17 +170,3 @@ Food images are loaded from Unsplash using image URLs. Image sources and applica
 ## Contact Form
 
 The contact form includes HTML validation and JavaScript feedback. It is a front-end demonstration and does not currently send messages to a server or email address.
-
-## Project Purpose
-
-The purpose of this project is to practise HTML, CSS, JavaScript, responsive web design, and basic user interactions while developing a restaurant landing page.
-
-## Author
-
-**Ragini More**
-
-Computer Engineering | Web Development
-
-## License
-
-This project was created for learning and internship purposes. Third-party images remain subject to their respective licenses and terms of use.
