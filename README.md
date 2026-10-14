@@ -99,10 +99,10 @@ Add screenshots of your website to the `screenshots` folder.
 
 **Email:** raginimore445@gmail.com
 
-**GitHub:** [raginimore21](https://github.com/raginimore21)
+**GitHub:** raginimore21](https://github.com/raginimore21
 
-**LinkedIn:** Add your correct LinkedIn profile URL here.
-
+**LinkedIn:** 
+](https://www.linkedin.com/in/ragini-more-4459b4256)
 ## Future Improvements
 
 - Add a dark/light theme toggle.
